@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  destinyViewAboutViewController.h
 //  DestinyNumbersv2
 //
 //  Created by burnsoft on 2/18/14.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface destinyViewAboutViewController : UIViewController
+
 
 @end
