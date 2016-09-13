@@ -282,9 +282,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A595B1ED18B3ED79008DD02F /* DestinyNumbersv2 */ = {
+		A595B1ED18B3ED79008DD02F /* Destiny Numbers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A595B22018B3ED79008DD02F /* Build configuration list for PBXNativeTarget "DestinyNumbersv2" */;
+			buildConfigurationList = A595B22018B3ED79008DD02F /* Build configuration list for PBXNativeTarget "Destiny Numbers" */;
 			buildPhases = (
 				A595B1EA18B3ED79008DD02F /* Sources */,
 				A595B1EB18B3ED79008DD02F /* Frameworks */,
@@ -294,7 +294,7 @@
 			);
 			dependencies = (
 			);
-			name = DestinyNumbersv2;
+			name = "Destiny Numbers";
 			productName = DestinyNumbersv2;
 			productReference = A595B1EE18B3ED79008DD02F /* Destiny Numbers.app */;
 			productType = "com.apple.product-type.application";
@@ -347,7 +347,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A595B1ED18B3ED79008DD02F /* DestinyNumbersv2 */,
+				A595B1ED18B3ED79008DD02F /* Destiny Numbers */,
 				A595B20E18B3ED79008DD02F /* DestinyNumbersv2Tests */,
 			);
 		};
@@ -419,7 +419,7 @@
 /* Begin PBXTargetDependency section */
 		A595B21518B3ED79008DD02F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A595B1ED18B3ED79008DD02F /* DestinyNumbersv2 */;
+			target = A595B1ED18B3ED79008DD02F /* Destiny Numbers */;
 			targetProxy = A595B21418B3ED79008DD02F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -532,7 +532,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DestinyNumbersv2/DestinyNumbersv2-Prefix.pch";
 				INFOPLIST_FILE = "DestinyNumbersv2/DestinyNumbersv2-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.burnsoft.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_BUNDLE_IDENTIFIER = net.burnsoft.DestinyNumbers;
 				PRODUCT_NAME = "Destiny Numbers";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -548,7 +549,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DestinyNumbersv2/DestinyNumbersv2-Prefix.pch";
 				INFOPLIST_FILE = "DestinyNumbersv2/DestinyNumbersv2-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.burnsoft.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_BUNDLE_IDENTIFIER = net.burnsoft.DestinyNumbers;
 				PRODUCT_NAME = "Destiny Numbers";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -609,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A595B22018B3ED79008DD02F /* Build configuration list for PBXNativeTarget "DestinyNumbersv2" */ = {
+		A595B22018B3ED79008DD02F /* Build configuration list for PBXNativeTarget "Destiny Numbers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A595B22118B3ED79008DD02F /* Debug */,
