@@ -30,7 +30,6 @@
 
 - (int) GetNumber:(NSString *)c;
 - (NSString *) GetDMeaning:(int)i;
-- (NSString *) GetDinsultingMeaning:(int) i;
 - (int) CalcLeters;
 
 @end
