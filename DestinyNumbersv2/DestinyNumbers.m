@@ -55,7 +55,7 @@
     NSString *sMsg = @"";
     switch (i) {
         case 1:
-            sMsg = @"You are a natural leader, independent and ambitious. Limitations frustrate you as you need freedom to make your own decicions. ";
+            sMsg = @"You are a natural leader, independent and ambitious. Limitations frustrate you as you need freedom to make your own decisions";
             break;
         case 2:
             sMsg = @"With tact, refinement, and strong intuition, you are good at avoiding problems and working well with others.  You need a partnership for your abilities to surface. Sensitivity, however, can make you vulnerable.";
@@ -76,22 +76,22 @@
             sMsg = @"This number expresses great curiosity for the truth in all things, clarity of though, and persistence of purpose. It also causes you stress if you engage in too much social activity.";
             break;
         case 8:
-            sMsg = @"A highly competitive person, you enjoy challenges in your struggle to be the best of your field or oversome obstacles. You natural talents could fit you for several careers in management or negotiating.";
+            sMsg = @"A highly competitive person, you enjoy challenges in your struggle to be the best of your field or overcome obstacles. You natural talents could fit you for several careers in management or negotiating.";
             break;
         case 9:
-            sMsg = @"a born humanitarian, you are extremely idealistic, sometimes to point to being naive. Your friends and acquaintances come from all walks of life.";
+            sMsg = @"A born humanitarian, you are extremely idealistic, sometimes to point to being naive. Your friends and acquaintances come from all walks of life.";
             break;
         case 10:
-            sMsg = @"You might fail to realize your own potential and consequently harbour deep-seated feeling of frustration, which will cause you to feel unfulfilled.  This makes you behave somewhat proud and arrogant manner to cover your feelings of inferiority.  You might have a good business skill, hate routine and can be quite eccentric.";
+            sMsg = @"You might fail to realize your own potential and consequently harbor deep-seated feeling of frustration, which will cause you to feel unfulfilled.  This makes you behave somewhat proud and arrogant manner to cover your feelings of inferiority.  You might have a good business skill, hate routine and can be quite eccentric.";
             break;
         case 11:
-            sMsg = @"Your ideas, intuition, and psychic abilities can make you a powerful presence if you learn to control the energy. Because of a sense of seperateness that developed in childhood, you may be cautious about sharing your ideas.";
+            sMsg = @"Your ideas, intuition, and psychic abilities can make you a powerful presence if you learn to control the energy. Because of a sense of separateness that developed in childhood, you may be cautious about sharing your ideas.";
             break;
         case 12:
-            sMsg = @"You are a developed soul who have accumulated an unsual inner strength through many and varied lifetimes, But since you are still here you might want to change some of your old habbits.  You are suspicious of those who offer a high position and carefully analyse it, and to be awaare of false flattery and those who use it to gain their own ends.";
+            sMsg = @"You are a developed soul who have accumulated an unusual inner strength through many and varied lifetimes, But since you are still here you might want to change some of your old habits.  You are suspicious of those who offer a high position and carefully analyze it, and to be aware of false flattery and those who use it to gain their own ends.";
             break;
         case 13:
-            sMsg = @"Known as a karmic numbner asscoiated with upheaval.  Smart, but very vulnerable, touchy and quick to be offended. But you are loyal and make a good friend.  Even though you are quick to offend, remember that your words can do irreparable damage to the other person.";
+            sMsg = @"Known as a karmic number associated with upheaval.  Smart, but very vulnerable, touchy and quick to be offended. But you are loyal and make a good friend.  Even though you are quick to offend, remember that your words can do irreparable damage to the other person.";
             break;
         case 14:
             sMsg = @"Known as a karmic number, you need to learn independence, self initiative, unity and justice.  Be careful, you can have a strong negative influence on people. You become bored quickly and need to be challenged.";
@@ -100,13 +100,13 @@
             sMsg = @"You have a lot of spunk, but do not like to attract attention to yourself.  You are independent and can be rebellious at time. You might come off as tough, but in reality you can be very sensitive and loving on the inside.";
             break;
         case 16:
-            sMsg = @"You must cultivate your personal willpower, independence and initicative action to enable yourself to overcome obstacles that come into your life.  You listen to you inner voice and analyize dreams.";
+            sMsg = @"You must cultivate your personal willpower, independence and initiative action to enable yourself to overcome obstacles that come into your life.  You listen to you inner voice and analyze dreams.";
             break;
         case 17:
             sMsg=@"Congrats! you have a name that live on long after you die.  You are strong and soft, sympathetic and sentimental.  They say that people with the number 17 have extremely high psychic and clairvoyant abilities...what am i thinking now?";
             break;
         case 18:
-            sMsg = @"You attact people with a lot of problems and they just want to tell you their story.  You have a strong and loving soul. You would make a great teacher or vet or humanitarian work.";
+            sMsg = @"You attract people with a lot of problems and they just want to tell you their story.  You have a strong and loving soul. You would make a great teacher or vet or humanitarian work.";
             break;
         case 19:
             sMsg=@"You are a domineering character, with a very strong, magnetic personality.  With your assertiveness, you are able to inspire full confidence in others, but you can also break a person.  In relationships, you look for people that are the same, or those that completely obey.";
@@ -130,13 +130,13 @@
             sMsg=@"You are is sometimes known to be very aloof and critical of others, so it is hard to form close bonds with one.  However, you possess a wonderful mind and are excellent in research.";
             break;
         case 26:
-            sMsg=@"You have great leadership potential and may/ or have achieved great success or even fame.  You would make a great politician, property mogual, or business leader";
+            sMsg=@"You have great leadership potential and may/ or have achieved great success or even fame.  You would make a great politician, property mogul, or business leader.";
             break;
         case 27:
-            sMsg=@"You are often broad-minded and have a good sense of humour, although your calm exterior often covers up feelings of stress. you can hold a grudge and are tight with your cash, and are able to attract money from unusual sources.";
+            sMsg=@"You are often broad-minded and have a good sense of humor, although your calm exterior often covers up feelings of stress. you can hold a grudge and are tight with your cash, and are able to attract money from unusual sources.";
             break;
         case 28:
-            sMsg=@"You will excel anywhere you can show your leadership qualities.  You tend to be stubborn and indepenent.";
+            sMsg=@"You will excel anywhere you can show your leadership qualities.  You tend to be stubborn and independent.";
             break;
         case 29:
             sMsg=@"You have a deep love of family and home-life and enjoy sports of all kinds.  You are able to multi-task, doing ten things at once.";
