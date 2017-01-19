@@ -5,3 +5,6 @@ You can also use the science of numbers to determine your destiny, or life goal,
 The Destiny number is determined by assigning a numerical value to each letter, adding the numbers together, then reducing them to a single number.  Numbers eleven and twenty-two, however, are not reduced, as they have special significance of their own.
 
 Even then, its always fun to see if it matches up with your personality or someone you know.
+<center>
+<img src="https://github.com/burnsoftnet/DestinyNumbers/blob/GitHub/ScreenShots/Simulator%20Screen%20Shot%20Dec%2019,%202016,%209.01.17%20AM.png?raw=true">
+</center>
