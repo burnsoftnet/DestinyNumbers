@@ -8,3 +8,12 @@ Even then, its always fun to see if it matches up with your personality or someo
 <center>
 <img src="https://github.com/burnsoftnet/DestinyNumbers/blob/GitHub/ScreenShots/Simulator%20Screen%20Shot%20Dec%2019,%202016,%209.01.17%20AM.png?raw=true">
 </center>
+
+
+<b>Release Log:</b>
+
+<b>Version 1.4.11</b>
+ - Added destiny number meanings 31-40
+
+<b>Version 1.4.10</b>
+ - First Release

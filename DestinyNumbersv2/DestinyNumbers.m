@@ -144,6 +144,37 @@
         case 30:
             sMsg=@"You are a talker and extremely creative, and it is this creativity that you need to put to good use during your lifetimes. ";
             break;
+        case 31:
+            sMsg = @"You have a good sense of what is right.  You are pragmatic, creative, honest, conscientious, and sincere.";
+            break;
+        case 32:
+            sMsg = @"You tend to change your goals and even the means of them sometimes. You are a more then likely to pursue things that other find meaningless but it usually end up providing a lot of personal satisfaction.";
+            break;
+        case 33:
+            sMsg = @"You are nurturing, creatvie and good at expressing your point of view.";
+            break;
+        case 34:
+            //http://affinitynumerology.com/number-meanings/number-34-meaning.php
+            sMsg = @"You are highly intuitive, spiritual, wise, and enjoy the activities of analyzing situations or resolving mysteries.";
+            break;
+        case 35:
+            sMsg = @"You to aquire material things, the efficient accomplishment of goals, building things society finds useful, and managing people most effectively.";
+            break;
+        case 36:
+            sMsg = @"You are compassionate, tolerant, and have a vision of an ideal society.";
+            break;
+        case 37:
+            sMsg = @"You are a born leader but wishes to be left unhampered to carry out your own ideas, create your own inventions, and find your own solutions.";
+            break;
+        case 38:
+            sMsg = @"You like to be part of a group. You wish to be in a position to benefit the group with negotiation and diplomatic skills it wishes it had.";
+            break;
+        case 39:
+            sMsg = @"You desire to bring creative works that benefit humankind and to be accepted by artists and other creative people.";
+            break;
+        case 40:
+            sMsg = @"You have a good sense of what is right.  You are pragmatic, creative, honest, conscientious, and sincere. You tends to be loyal, intense, and dedicated to the job at hand.";
+            break;
         default:
             sMsg = [NSString stringWithFormat:@"Sorry, we currently do not have anything listed for %i at this time.",i];
             break;
