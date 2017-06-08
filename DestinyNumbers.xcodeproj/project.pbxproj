@@ -480,6 +480,7 @@
 				A5B226FD1EE849810026F5E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
