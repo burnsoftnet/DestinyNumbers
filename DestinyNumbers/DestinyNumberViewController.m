@@ -17,6 +17,9 @@
     NSString *MyNumber;
     NSString *MyMeaning;
 }
+
+#pragma mark View Did Load
+//When the View first Appears
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -27,14 +30,10 @@
     MyNumber = [NSString new];
     MyMeaning = [NSString new];
     
-    UIGraphicsBeginImageContext(self.view.frame.size);
-    [[UIImage imageNamed:@"background.jpg"] drawInRect:self.view.bounds];
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
+     [self setBackGroundImage];
 }
-
+#pragma mark View Did Appear
+//actions to take when the view appears again
 -(void)viewDidAppear:(BOOL)animated
 {
     MyNumber = [NSString new];
@@ -44,11 +43,30 @@
     self.txtLastName.text = @"";
 }
 
+#pragma mark View Will Appear
+//when the view reappears
+-(void) viewWillAppear:(BOOL)animated
+{
+    [self setBackGroundImage];
+}
+
+#pragma mark View Did Layout Subviews
+//when the screen is reorientated to another angle
+-(void) viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    [self setBackGroundImage];
+}
+
+#pragma mark Memory Warning
+//actions to take when a memory warning is issue
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark Tap Recieved
+//dissmiss the keyboard when the view is touched.
 -(void)tapReceived:(UITapGestureRecognizer *)tapGestureRecognizer
 {
     [self.txtLastName resignFirstResponder];
@@ -69,7 +87,8 @@
     
 }
 
-
+#pragma mark Get Meaning Button
+//action to take when button is touched
 - (IBAction)GetMeaning:(id)sender {
     int fn = 0;
     int mn = 0;
@@ -89,5 +108,17 @@
     
     [self performSegueWithIdentifier:@"segueResults" sender:self];
     
+}
+
+#pragma mark Set Background Image
+//set the background image of the view
+-(void) setBackGroundImage
+{
+    UIGraphicsBeginImageContext(self.view.frame.size);
+    [[UIImage imageNamed:@"background.jpg"] drawInRect:self.view.bounds];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    self.view.backgroundColor = [UIColor colorWithPatternImage:image];
 }
 @end

@@ -14,9 +14,40 @@
 
 @implementation AboutViewController
 
+#pragma mark View Did Load
+//When the View first Appears
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self setBackGroundImage];
+}
+
+#pragma mark View Will Appear
+//when the view reappears
+-(void) viewWillAppear:(BOOL)animated
+{
+    [self setBackGroundImage];
+}
+
+#pragma mark View Did Layout Subviews
+//when the screen is reorientated to another angle
+-(void) viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    [self setBackGroundImage];
+}
+
+#pragma mark Memory Warning
+//actions to take when a memory warning is issued
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+#pragma mark Set Background Image
+//set the background image of the view
+-(void) setBackGroundImage
+{
     UIGraphicsBeginImageContext(self.view.frame.size);
     [[UIImage imageNamed:@"background.jpg"] drawInRect:self.view.bounds];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
@@ -24,20 +55,5 @@
     
     self.view.backgroundColor = [UIColor colorWithPatternImage:image];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
