@@ -42,7 +42,9 @@
 		A5B2273A1EE852BA0026F5E6 /* DestinyNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B227391EE852BA0026F5E6 /* DestinyNumbers.m */; };
 		A5B2273D1EE858D30026F5E6 /* DestinyNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2273C1EE858D30026F5E6 /* DestinyNumberViewController.m */; };
 		A5B227401EE85CC50026F5E6 /* DestinyResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2273F1EE85CC50026F5E6 /* DestinyResultsViewController.m */; };
-		A5B227421EE8C1C70026F5E6 /* celtic-background-twisted-frame-ornament-watermark-33982959_Fotor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5B227411EE8C1C70026F5E6 /* celtic-background-twisted-frame-ornament-watermark-33982959_Fotor.jpg */; };
+		A5B227421EE8C1C70026F5E6 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5B227411EE8C1C70026F5E6 /* background.jpg */; };
+		A5B227451EE8D2970026F5E6 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B227441EE8D2970026F5E6 /* AboutViewController.m */; };
+		A5B227471EE8DA110026F5E6 /* celticknot2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5B227461EE8DA110026F5E6 /* celticknot2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,7 +89,10 @@
 		A5B2273C1EE858D30026F5E6 /* DestinyNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinyNumberViewController.m; sourceTree = "<group>"; };
 		A5B2273E1EE85CC50026F5E6 /* DestinyResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinyResultsViewController.h; sourceTree = "<group>"; };
 		A5B2273F1EE85CC50026F5E6 /* DestinyResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinyResultsViewController.m; sourceTree = "<group>"; };
-		A5B227411EE8C1C70026F5E6 /* celtic-background-twisted-frame-ornament-watermark-33982959_Fotor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "celtic-background-twisted-frame-ornament-watermark-33982959_Fotor.jpg"; sourceTree = "<group>"; };
+		A5B227411EE8C1C70026F5E6 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		A5B227431EE8D2970026F5E6 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		A5B227441EE8D2970026F5E6 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		A5B227461EE8DA110026F5E6 /* celticknot2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = celticknot2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +164,8 @@
 				A5B2273C1EE858D30026F5E6 /* DestinyNumberViewController.m */,
 				A5B2273E1EE85CC50026F5E6 /* DestinyResultsViewController.h */,
 				A5B2273F1EE85CC50026F5E6 /* DestinyResultsViewController.m */,
+				A5B227431EE8D2970026F5E6 /* AboutViewController.h */,
+				A5B227441EE8D2970026F5E6 /* AboutViewController.m */,
 			);
 			name = "Form Classes";
 			sourceTree = "<group>";
@@ -173,7 +180,8 @@
 		A5B227011EE849E30026F5E6 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				A5B227411EE8C1C70026F5E6 /* celtic-background-twisted-frame-ornament-watermark-33982959_Fotor.jpg */,
+				A5B227461EE8DA110026F5E6 /* celticknot2.jpg */,
+				A5B227411EE8C1C70026F5E6 /* background.jpg */,
 				A5B227361EE8517F0026F5E6 /* celticknot.jpeg */,
 				A5B227321EE84F790026F5E6 /* info.png */,
 				A5B227331EE84F790026F5E6 /* rank.png */,
@@ -264,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B227471EE8DA110026F5E6 /* celticknot2.jpg in Resources */,
 				A5B227211EE84AC10026F5E6 /* Icon-76@3x.png in Resources */,
 				A5B2271C1EE84AC10026F5E6 /* Icon-60@3x.png in Resources */,
 				A5B227291EE84AC10026F5E6 /* Icon-Small@2x.png in Resources */,
@@ -290,7 +299,7 @@
 				A5B227351EE84F790026F5E6 /* rank.png in Resources */,
 				A5B2271D1EE84AC10026F5E6 /* Icon-72.png in Resources */,
 				A5B227311EE84AC10026F5E6 /* iTunesArtwork@2x.png in Resources */,
-				A5B227421EE8C1C70026F5E6 /* celtic-background-twisted-frame-ornament-watermark-33982959_Fotor.jpg in Resources */,
+				A5B227421EE8C1C70026F5E6 /* background.jpg in Resources */,
 				A5B226F21EE849810026F5E6 /* Main.storyboard in Resources */,
 				A5B227201EE84AC10026F5E6 /* Icon-76@2x.png in Resources */,
 				A5B2272A1EE84AC10026F5E6 /* Icon-Small@3x.png in Resources */,
@@ -305,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B227451EE8D2970026F5E6 /* AboutViewController.m in Sources */,
 				A5B226E91EE849810026F5E6 /* AppDelegate.m in Sources */,
 				A5B227401EE85CC50026F5E6 /* DestinyResultsViewController.m in Sources */,
 				A5B2273D1EE858D30026F5E6 /* DestinyNumberViewController.m in Sources */,
