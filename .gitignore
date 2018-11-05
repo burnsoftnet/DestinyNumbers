@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # osx noise
 .DS_Store
 profile
@@ -16,3 +17,9 @@ xcuserdata
 # svn & cvs
 .svn
 CVS
+=======
+DestinyNumbersv2.xcodeproj/project.xcworkspace/xcuserdata/burnsoft.xcuserdatad/WorkspaceSettings.xcsettings
+DestinyNumbersv2.xcodeproj/xcuserdata/burnsoft.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+DestinyNumbersv2.xcodeproj/xcuserdata/burnsoft.xcuserdatad/xcschemes/DestinyNumbersv2.xcscheme
+DestinyNumbersv2.xcodeproj/xcuserdata/burnsoft.xcuserdatad/xcschemes/xcschememanagement.plist
+>>>>>>> ea2127232838b02bb7a4a556b5c7a3161165b8c8
