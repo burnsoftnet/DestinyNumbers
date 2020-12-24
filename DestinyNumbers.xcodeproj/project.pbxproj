@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A57C831725942BB10013383A /* DestinyNumbersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C831625942BB10013383A /* DestinyNumbersUITests.m */; };
 		A5B226E61EE849810026F5E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B226E51EE849810026F5E6 /* main.m */; };
 		A5B226E91EE849810026F5E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B226E81EE849810026F5E6 /* AppDelegate.m */; };
 		A5B226F21EE849810026F5E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B226F01EE849810026F5E6 /* Main.storyboard */; };
@@ -47,7 +48,21 @@
 		A5B227471EE8DA110026F5E6 /* celticknot2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5B227461EE8DA110026F5E6 /* celticknot2.jpg */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A57C831925942BB10013383A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5B226D91EE849810026F5E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5B226E01EE849810026F5E6;
+			remoteInfo = DestinyNumbers;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A57C830F25942B9A0013383A /* UITestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UITestPlan.xctestplan; sourceTree = "<group>"; };
+		A57C831425942BB10013383A /* DestinyNumbersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DestinyNumbersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57C831625942BB10013383A /* DestinyNumbersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DestinyNumbersUITests.m; sourceTree = "<group>"; };
+		A57C831825942BB10013383A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5B226E11EE849810026F5E6 /* DestinyNumbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DestinyNumbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B226E51EE849810026F5E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5B226E71EE849810026F5E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,6 +111,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A57C831125942BB10013383A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5B226DE1EE849810026F5E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,10 +128,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A57C831525942BB10013383A /* DestinyNumbersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A57C831625942BB10013383A /* DestinyNumbersUITests.m */,
+				A57C831825942BB10013383A /* Info.plist */,
+			);
+			path = DestinyNumbersUITests;
+			sourceTree = "<group>";
+		};
 		A5B226D81EE849810026F5E6 = {
 			isa = PBXGroup;
 			children = (
+				A57C830F25942B9A0013383A /* UITestPlan.xctestplan */,
 				A5B226E31EE849810026F5E6 /* DestinyNumbers */,
+				A57C831525942BB10013383A /* DestinyNumbersUITests */,
 				A5B226E21EE849810026F5E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				A5B226E11EE849810026F5E6 /* DestinyNumbers.app */,
+				A57C831425942BB10013383A /* DestinyNumbersUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,6 +250,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A57C831325942BB10013383A /* DestinyNumbersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57C831B25942BB10013383A /* Build configuration list for PBXNativeTarget "DestinyNumbersUITests" */;
+			buildPhases = (
+				A57C831025942BB10013383A /* Sources */,
+				A57C831125942BB10013383A /* Frameworks */,
+				A57C831225942BB10013383A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A57C831A25942BB10013383A /* PBXTargetDependency */,
+			);
+			name = DestinyNumbersUITests;
+			productName = DestinyNumbersUITests;
+			productReference = A57C831425942BB10013383A /* DestinyNumbersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		A5B226E01EE849810026F5E6 /* DestinyNumbers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5B226FB1EE849810026F5E6 /* Build configuration list for PBXNativeTarget "DestinyNumbers" */;
@@ -242,6 +294,12 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = burnsoft;
 				TargetAttributes = {
+					A57C831325942BB10013383A = {
+						CreatedOnToolsVersion = 12.3;
+						DevelopmentTeam = MF94VYSKL4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A5B226E01EE849810026F5E6;
+					};
 					A5B226E01EE849810026F5E6 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = MF94VYSKL4;
@@ -263,11 +321,19 @@
 			projectRoot = "";
 			targets = (
 				A5B226E01EE849810026F5E6 /* DestinyNumbers */,
+				A57C831325942BB10013383A /* DestinyNumbersUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A57C831225942BB10013383A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5B226DF1EE849810026F5E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,6 +376,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A57C831025942BB10013383A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57C831725942BB10013383A /* DestinyNumbersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5B226DD1EE849810026F5E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,6 +398,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A57C831A25942BB10013383A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5B226E01EE849810026F5E6 /* DestinyNumbers */;
+			targetProxy = A57C831925942BB10013383A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A5B226F01EE849810026F5E6 /* Main.storyboard */ = {
@@ -345,6 +427,51 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A57C831C25942BB10013383A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF94VYSKL4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DestinyNumbersUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.burnsoft.DestinyNumbersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DestinyNumbers;
+			};
+			name = Debug;
+		};
+		A57C831D25942BB10013383A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF94VYSKL4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = DestinyNumbersUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.burnsoft.DestinyNumbersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DestinyNumbers;
+			};
+			name = Release;
+		};
 		A5B226F91EE849810026F5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -488,6 +615,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A57C831B25942BB10013383A /* Build configuration list for PBXNativeTarget "DestinyNumbersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57C831C25942BB10013383A /* Debug */,
+				A57C831D25942BB10013383A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A5B226DC1EE849810026F5E6 /* Build configuration list for PBXProject "DestinyNumbers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
