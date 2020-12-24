@@ -12,7 +12,13 @@
 
   },
   "testTargets" : [
-
+    {
+      "target" : {
+        "containerPath" : "container:DestinyNumbers.xcodeproj",
+        "identifier" : "A57C831325942BB10013383A",
+        "name" : "DestinyNumbersUITests"
+      }
+    }
   ],
   "version" : 1
 }
