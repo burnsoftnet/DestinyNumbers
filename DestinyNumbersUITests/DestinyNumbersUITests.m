@@ -44,6 +44,8 @@
 - (void)testCheckAbout {
     
     XCUIApplication *app = [[XCUIApplication alloc] init];
+    [app launch];
+    
     [app.tabBars[@"Tab Bar"].buttons[@"About"] tap];
     [app/*@START_MENU_TOKEN@*/.staticTexts[@"You can also use the science of numbers to determine your destiny, or life goal, according to your given birth name: First, Middle and last.  However, if you have rejected your birth name in favor of another name, both names should be considered as forces that shape you and your life. "]/*[[".scrollViews.staticTexts[@\"You can also use the science of numbers to determine your destiny, or life goal, according to your given birth name: First, Middle and last.  However, if you have rejected your birth name in favor of another name, both names should be considered as forces that shape you and your life. \"]",".staticTexts[@\"You can also use the science of numbers to determine your destiny, or life goal, according to your given birth name: First, Middle and last.  However, if you have rejected your birth name in favor of another name, both names should be considered as forces that shape you and your life. \"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/ swipeUp];
 }
@@ -57,6 +59,8 @@
     
     
     XCUIApplication *app = [[XCUIApplication alloc] init];
+    [app launch];
+    
     [app/*@START_MENU_TOKEN@*/.textFields[@"A"]/*[[".scrollViews.textFields[@\"A\"]",".textFields[@\"A\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/ tap];
     
     XCUIElement *jKey = app/*@START_MENU_TOKEN@*/.keys[@"J"]/*[[".keyboards.keys[@\"J\"]",".keys[@\"J\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/;
@@ -70,8 +74,9 @@
     
     XCUIElement *mKey = app/*@START_MENU_TOKEN@*/.keys[@"M"]/*[[".keyboards.keys[@\"M\"]",".keys[@\"M\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/;
     [mKey tap];
-
-    [app/*@START_MENU_TOKEN@*/.buttons[@"  Get your Destiny Number  "]/*[[".scrollViews.buttons[@\"  Get your Destiny Number  \"]",".buttons[@\"  Get your Destiny Number  \"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.staticTexts[@"  Get your Destiny Number  "] tap];
+    [app swipeUp];
+    
+    [app/*@START_MENU_TOKEN@*/.buttons[@"  Get your Destiny Number  "]/*[[".scrollViews.buttons[@\"  Get your Destiny Number  \"]",".buttons[@\"  Get your Destiny Number  \"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/ tap];
     
     /*@START_MENU_TOKEN@*/[app.textViews.textViews[@"A responsible person who has justice and honesty on your list of necessary life traits, your duties sometimes feel like heavy burdens. However, these traits also help you with creative talents, parenting, counseling, and negotiating problems. "] swipeRight];/*[["app.textViews.textViews[@\"A responsible person who has justice and honesty on your list of necessary life traits, your duties sometimes feel like heavy burdens. However, these traits also help you with creative talents, parenting, counseling, and negotiating problems. \"]","["," swipeDown];"," swipeRight];"],[[[-1,0,1]],[[1,3],[1,2]]],[0,0]]@END_MENU_TOKEN@*/
     
