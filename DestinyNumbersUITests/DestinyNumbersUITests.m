@@ -31,7 +31,11 @@
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
 }
-
+/*!
+ @discussion Verify that app can run
+ @brief  Verify that app can run
+ @remark Recorded UI Test
+ */
 - (void)testRunApp {
     // UI tests must launch the application that they test.
     XCUIApplication *app = [[XCUIApplication alloc] init];
@@ -55,9 +59,10 @@
     
     /*
     NSLog(@"%@",app.scrollViews.staticTexts);
-    XCUIElement *textView = app.textViews[@"txt1"];
-    XCTAssert([textView.value isEqualToString:expectedText]);
-     */
+    XCUIElement *textView = app.textViews.textViews[@"txt1"];
+    //NSLog(@"%@",textView.value);
+    XCTAssert([textView.value isEqualToString:AboutExpectedString]);
+    */
 }
 
 /*!

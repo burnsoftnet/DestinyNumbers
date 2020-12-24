@@ -24,6 +24,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqS-DY-f9p" userLabel="txt1">
                                         <rect key="frame" x="48.5" y="105" width="286" height="109"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="txt1" label="txt1"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="109" id="htY-58-I3n"/>
                                         </constraints>
