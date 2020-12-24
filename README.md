@@ -6,11 +6,14 @@ The Destiny number is determined by assigning a numerical value to each letter, 
 
 Even then, its always fun to see if it matches up with your personality or someone you know.
 <center>
-<img src="https://github.com/burnsoftnet/DestinyNumbers/blob/GitHub/ScreenShots/Simulator%20Screen%20Shot%20Dec%2019,%202016,%209.01.17%20AM.png?raw=true">
+![](Default-568h@2x.png)
 </center>
 
 
 <b>Release Log:</b>
+
+<b>Version 1.6.2</b>
+ - Updated for iOS 13
 
 <b>Version 1.4.11</b>
  - Added destiny number meanings 31-40
