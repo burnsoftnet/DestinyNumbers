@@ -12,7 +12,7 @@ Even then, its always fun to see if it matches up with your personality or someo
 
 <b>Release Log:</b>
 
-<b>Version 1.6.2</b>
+<b>Version 1.6.3</b>
  - Updated for iOS 13
 
 <b>Version 1.4.11</b>
