@@ -6,7 +6,7 @@ The Destiny number is determined by assigning a numerical value to each letter, 
 
 Even then, its always fun to see if it matches up with your personality or someone you know.
 <center>
-![](Default-568h@2x.png)
+![](ScreenShots/iPhone6Plus/Simulator Screen Shot Jun 7, 2017, 10.48.49 PM.png)
 </center>
 
 
