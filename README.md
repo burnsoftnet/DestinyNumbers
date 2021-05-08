@@ -5,18 +5,26 @@ You can also use the science of numbers to determine your destiny, or life goal,
 The Destiny number is determined by assigning a numerical value to each letter, adding the numbers together, then reducing them to a single number.  Numbers eleven and twenty-two, however, are not reduced, as they have special significance of their own.
 
 Even then, its always fun to see if it matches up with your personality or someone you know.
-<center>
-![](Default-568h@2x.png)
-</center>
+
+## Screen Shots
+
+![](https://github.com/burnsoftnet/DestinyNumbers/blob/master/ScreenShots/iPhone6Plus/Simulator%20Screen%20Shot%20Jun%207%2C%202017%2C%2010.48.49%20PM.png?raw=true)
+![](https://github.com/burnsoftnet/DestinyNumbers/blob/master/ScreenShots/iPhone6Plus/Simulator%20Screen%20Shot%20Jun%207%2C%202017%2C%2010.48.49%20PM.png?raw=true)
+![](https://github.com/burnsoftnet/DestinyNumbers/blob/master/ScreenShots/iPhone6Plus/Simulator%20Screen%20Shot%20Jun%207%2C%202017%2C%2010.48.49%20PM.png?raw=true)
 
 
-<b>Release Log:</b>
+## Apple App Store Link
 
-<b>Version 1.6.3</b>
+[Destiney Number](https://apps.apple.com/us/app/destiny-numbe-rs/id1187908559?ls=1)
+
+
+## Release Log:
+
+### Version 1.6.3
  - Updated for iOS 13
 
-<b>Version 1.4.11</b>
+### Version 1.4.11
  - Added destiny number meanings 31-40
 
-<b>Version 1.4.10</b>
+### Version 1.4.10
  - First Release
