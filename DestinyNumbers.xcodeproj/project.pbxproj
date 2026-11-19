@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A57C831725942BB10013383A /* DestinyNumbersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C831625942BB10013383A /* DestinyNumbersUITests.m */; };
-		A5B226E61EE849810026F5E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B226E51EE849810026F5E6 /* main.m */; };
-		A5B226E91EE849810026F5E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B226E81EE849810026F5E6 /* AppDelegate.m */; };
 		A5B226F21EE849810026F5E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B226F01EE849810026F5E6 /* Main.storyboard */; };
 		A5B226F41EE849810026F5E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B226F31EE849810026F5E6 /* Assets.xcassets */; };
 		A5B226F71EE849810026F5E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B226F51EE849810026F5E6 /* LaunchScreen.storyboard */; };
@@ -40,12 +37,15 @@
 		A5B227341EE84F790026F5E6 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B227321EE84F790026F5E6 /* info.png */; };
 		A5B227351EE84F790026F5E6 /* rank.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B227331EE84F790026F5E6 /* rank.png */; };
 		A5B227371EE8517F0026F5E6 /* celticknot.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A5B227361EE8517F0026F5E6 /* celticknot.jpeg */; };
-		A5B2273A1EE852BA0026F5E6 /* DestinyNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B227391EE852BA0026F5E6 /* DestinyNumbers.m */; };
-		A5B2273D1EE858D30026F5E6 /* DestinyNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2273C1EE858D30026F5E6 /* DestinyNumberViewController.m */; };
-		A5B227401EE85CC50026F5E6 /* DestinyResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2273F1EE85CC50026F5E6 /* DestinyResultsViewController.m */; };
 		A5B227421EE8C1C70026F5E6 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5B227411EE8C1C70026F5E6 /* background.jpg */; };
-		A5B227451EE8D2970026F5E6 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B227441EE8D2970026F5E6 /* AboutViewController.m */; };
 		A5B227471EE8DA110026F5E6 /* celticknot2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5B227461EE8DA110026F5E6 /* celticknot2.jpg */; };
+		A5C5C97A30AF9EE00066C850 /* DestinyNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C97930AF9EE00066C850 /* DestinyNumbers.swift */; };
+		A5C5C97C30AF9EE80066C850 /* DestinyNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C97B30AF9EE80066C850 /* DestinyNumberViewController.swift */; };
+		A5C5C97E30AF9EEE0066C850 /* DestinyResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C97D30AF9EEE0066C850 /* DestinyResultsViewController.swift */; };
+		A5C5C98030AF9EF20066C850 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C97F30AF9EF20066C850 /* AboutViewController.swift */; };
+		A5C5C98230AF9EF40066C850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C98130AF9EF40066C850 /* AppDelegate.swift */; };
+		A5C5C98430AF9EFE0066C850 /* DestinyNumbersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C98330AF9EFE0066C850 /* DestinyNumbersUITests.swift */; };
+		A5C5C98630AF9FD10066C850 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C98530AF9FD10066C850 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +61,8 @@
 /* Begin PBXFileReference section */
 		A57C830F25942B9A0013383A /* UITestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UITestPlan.xctestplan; sourceTree = "<group>"; };
 		A57C831425942BB10013383A /* DestinyNumbersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DestinyNumbersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A57C831625942BB10013383A /* DestinyNumbersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DestinyNumbersUITests.m; sourceTree = "<group>"; };
 		A57C831825942BB10013383A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5B226E11EE849810026F5E6 /* DestinyNumbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DestinyNumbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5B226E51EE849810026F5E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5B226E71EE849810026F5E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A5B226E81EE849810026F5E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A5B226F11EE849810026F5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5B226F31EE849810026F5E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5B226F61EE849810026F5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,16 +94,15 @@
 		A5B227321EE84F790026F5E6 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
 		A5B227331EE84F790026F5E6 /* rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rank.png; sourceTree = "<group>"; };
 		A5B227361EE8517F0026F5E6 /* celticknot.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = celticknot.jpeg; sourceTree = "<group>"; };
-		A5B227381EE852BA0026F5E6 /* DestinyNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinyNumbers.h; sourceTree = "<group>"; };
-		A5B227391EE852BA0026F5E6 /* DestinyNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinyNumbers.m; sourceTree = "<group>"; };
-		A5B2273B1EE858D30026F5E6 /* DestinyNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinyNumberViewController.h; sourceTree = "<group>"; };
-		A5B2273C1EE858D30026F5E6 /* DestinyNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinyNumberViewController.m; sourceTree = "<group>"; };
-		A5B2273E1EE85CC50026F5E6 /* DestinyResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinyResultsViewController.h; sourceTree = "<group>"; };
-		A5B2273F1EE85CC50026F5E6 /* DestinyResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinyResultsViewController.m; sourceTree = "<group>"; };
 		A5B227411EE8C1C70026F5E6 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
-		A5B227431EE8D2970026F5E6 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
-		A5B227441EE8D2970026F5E6 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		A5B227461EE8DA110026F5E6 /* celticknot2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = celticknot2.jpg; sourceTree = "<group>"; };
+		A5C5C97930AF9EE00066C850 /* DestinyNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinyNumbers.swift; sourceTree = "<group>"; };
+		A5C5C97B30AF9EE80066C850 /* DestinyNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinyNumberViewController.swift; sourceTree = "<group>"; };
+		A5C5C97D30AF9EEE0066C850 /* DestinyResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinyResultsViewController.swift; sourceTree = "<group>"; };
+		A5C5C97F30AF9EF20066C850 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		A5C5C98130AF9EF40066C850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5C5C98330AF9EFE0066C850 /* DestinyNumbersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinyNumbersUITests.swift; sourceTree = "<group>"; };
+		A5C5C98530AF9FD10066C850 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +126,8 @@
 		A57C831525942BB10013383A /* DestinyNumbersUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A57C831625942BB10013383A /* DestinyNumbersUITests.m */,
 				A57C831825942BB10013383A /* Info.plist */,
+				A5C5C98330AF9EFE0066C850 /* DestinyNumbersUITests.swift */,
 			);
 			path = DestinyNumbersUITests;
 			sourceTree = "<group>";
@@ -163,13 +158,13 @@
 				A5B227001EE849D50026F5E6 /* Main */,
 				A5B226FF1EE849CD0026F5E6 /* Form Classes */,
 				A5B226FE1EE849C70026F5E6 /* Classes */,
-				A5B226E71EE849810026F5E6 /* AppDelegate.h */,
-				A5B226E81EE849810026F5E6 /* AppDelegate.m */,
 				A5B226F01EE849810026F5E6 /* Main.storyboard */,
 				A5B226F31EE849810026F5E6 /* Assets.xcassets */,
 				A5B226F51EE849810026F5E6 /* LaunchScreen.storyboard */,
 				A5B226F81EE849810026F5E6 /* Info.plist */,
 				A5B226E41EE849810026F5E6 /* Supporting Files */,
+				A5C5C98130AF9EF40066C850 /* AppDelegate.swift */,
+				A5C5C98530AF9FD10066C850 /* SceneDelegate.swift */,
 			);
 			path = DestinyNumbers;
 			sourceTree = "<group>";
@@ -177,7 +172,6 @@
 		A5B226E41EE849810026F5E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5B226E51EE849810026F5E6 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -185,8 +179,7 @@
 		A5B226FE1EE849C70026F5E6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A5B227381EE852BA0026F5E6 /* DestinyNumbers.h */,
-				A5B227391EE852BA0026F5E6 /* DestinyNumbers.m */,
+				A5C5C97930AF9EE00066C850 /* DestinyNumbers.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -194,12 +187,9 @@
 		A5B226FF1EE849CD0026F5E6 /* Form Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A5B2273B1EE858D30026F5E6 /* DestinyNumberViewController.h */,
-				A5B2273C1EE858D30026F5E6 /* DestinyNumberViewController.m */,
-				A5B2273E1EE85CC50026F5E6 /* DestinyResultsViewController.h */,
-				A5B2273F1EE85CC50026F5E6 /* DestinyResultsViewController.m */,
-				A5B227431EE8D2970026F5E6 /* AboutViewController.h */,
-				A5B227441EE8D2970026F5E6 /* AboutViewController.m */,
+				A5C5C97B30AF9EE80066C850 /* DestinyNumberViewController.swift */,
+				A5C5C97D30AF9EEE0066C850 /* DestinyResultsViewController.swift */,
+				A5C5C97F30AF9EF20066C850 /* AboutViewController.swift */,
 			);
 			name = "Form Classes";
 			sourceTree = "<group>";
@@ -381,7 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A57C831725942BB10013383A /* DestinyNumbersUITests.m in Sources */,
+				A5C5C98430AF9EFE0066C850 /* DestinyNumbersUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,12 +379,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5B227451EE8D2970026F5E6 /* AboutViewController.m in Sources */,
-				A5B226E91EE849810026F5E6 /* AppDelegate.m in Sources */,
-				A5B227401EE85CC50026F5E6 /* DestinyResultsViewController.m in Sources */,
-				A5B2273D1EE858D30026F5E6 /* DestinyNumberViewController.m in Sources */,
-				A5B226E61EE849810026F5E6 /* main.m in Sources */,
-				A5B2273A1EE852BA0026F5E6 /* DestinyNumbers.m in Sources */,
+				A5C5C98230AF9EF40066C850 /* AppDelegate.swift in Sources */,
+				A5C5C97C30AF9EE80066C850 /* DestinyNumberViewController.swift in Sources */,
+				A5C5C97E30AF9EEE0066C850 /* DestinyResultsViewController.swift in Sources */,
+				A5C5C98030AF9EF20066C850 /* AboutViewController.swift in Sources */,
+				A5C5C97A30AF9EE00066C850 /* DestinyNumbers.swift in Sources */,
+				A5C5C98630AF9FD10066C850 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +439,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = net.burnsoft.DestinyNumbersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DestinyNumbers;
 			};
@@ -474,6 +465,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = net.burnsoft.DestinyNumbersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DestinyNumbers;
 			};
@@ -601,16 +593,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				INFOPLIST_FILE = DestinyNumbers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = net.burnsoft.DestinyNumbers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -618,16 +611,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				INFOPLIST_FILE = DestinyNumbers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = net.burnsoft.DestinyNumbers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
