@@ -320,8 +320,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Number is: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8UP-X6-tTS">
-                                <rect key="frame" x="84" y="152" width="149" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Your Number is: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8UP-X6-tTS">
+                                <rect key="frame" x="84" y="152" width="238" height="23"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -338,7 +338,6 @@
                             <constraint firstItem="sEZ-CU-Hfu" firstAttribute="top" secondItem="o1o-B0-Dfn" secondAttribute="bottom" constant="31" id="WZG-gQ-enU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="o1o-B0-Dfn" secondAttribute="trailing" constant="21" id="XWC-aa-RBG"/>
                             <constraint firstItem="8UP-X6-tTS" firstAttribute="leading" secondItem="A7Q-Ad-xxC" secondAttribute="trailing" constant="19" id="ct4-QQ-h73"/>
-                            <constraint firstItem="o1o-B0-Dfn" firstAttribute="leading" secondItem="8UP-X6-tTS" secondAttribute="trailing" constant="105" id="czH-6c-3Zi"/>
                             <constraint firstItem="A7Q-Ad-xxC" firstAttribute="top" secondItem="4Kx-8t-Bbp" secondAttribute="bottom" constant="50" id="gj6-1s-e4G"/>
                             <constraint firstItem="sEZ-CU-Hfu" firstAttribute="top" secondItem="A7Q-Ad-xxC" secondAttribute="bottom" constant="31" id="jau-FH-Q9A"/>
                             <constraint firstItem="sEZ-CU-Hfu" firstAttribute="leading" secondItem="fOc-1V-w9t" secondAttribute="leadingMargin" constant="21" id="p7Z-LL-Y2L"/>
