@@ -85,7 +85,7 @@ class DestinyNumberViewController: UIViewController, UIGestureRecognizerDelegate
 
         let iTotal = fn + mn + ln
 
-        myNumber = "Your Destiny Number is: \(iTotal)"
+        myNumber = "Your Number is: \(iTotal)"
         myMeaning = dn.getMeaning(iTotal)
 
         performSegue(withIdentifier: "segueResults", sender: self)
